@@ -33,9 +33,9 @@ fetch(nowPlayingEndPoint)
 
         container.innerHTML += `<div class="movie" id="${i}"> \ 
                                 <img src="${poster}" id="img-${i}" \
-                                alt="${movieTitle} poster" width="50%">\
+                                alt="${movieTitle} poster">\
                                 <div class="movie-text" id="div-${i}">\
-                                <h5 id="h5-${i}">${movieTitle}</h5>\
+                                <h3 id="h3-${i}">${movieTitle}</h3>\
                                 <p id="p-${i}">${synopsis}</p>\
                                 </div>\
                                 </div>`;
@@ -50,7 +50,7 @@ document.querySelector(".container").addEventListener("click", (event) => {
     const element = event.target;
     
     const dashIdx = element.id.indexOf("-");
-    const arrayIndex = parseInt(element.id.substring(dashIdx+1, element.id.length));
+    const arrayIndex = parseInt(element.id.substring(dashIdx+1));
 
 
     console.log("Movie clicked index: " + arrayIndex)
