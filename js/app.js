@@ -50,7 +50,7 @@ document.querySelector(".container").addEventListener("click", (event) => {
     const element = event.target;
     
     const dashIdx = element.id.indexOf("-");
-    const arrayIndex = parseInt(element.id.substring(dashIdx+1, dashIdx+2));
+    const arrayIndex = parseInt(element.id.substring(dashIdx+1, element.id.length));
 
 
     console.log("Movie clicked index: " + arrayIndex)
