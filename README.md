@@ -14,7 +14,7 @@
 
 #### Screenshots
 
-<img src="./screenshots/screenshot1.png" alt="Main screen" height="300">     <img src="./screenshots/screenshot2.png" alt="Details screen" height="300"><br/><img src="./screenshots/nowplaying.gif" alt="App demo" height="300">
+<img src="./screenshots/screenshot1.png" alt="Main screen" height="300">     <img src="./screenshots/screenshot2.png" alt="Details screen" height="300"><br/><br/><img src="./screenshots/nowplaying.gif" alt="App demo" height="300">
 
 #### Features
 * 2-column layout of movies that are now playing in theatres or movies now streaming online.
