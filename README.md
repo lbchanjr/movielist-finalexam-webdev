@@ -10,7 +10,7 @@
 
 * JSON data parsing operations
 
-* Promise processing and exception handling
+* Promise object processing and exception handling
 
 #### Screenshots
 
